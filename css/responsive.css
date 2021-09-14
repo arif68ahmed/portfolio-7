@@ -1,0 +1,173 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .p-box{
+      overflow: hidden;
+    }
+    .p-box-text{
+      margin-top: 5%;
+      font-size: 12px;
+  }
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .navbar-collapse{
+      text-align: center !important;
+    }
+    .service-box {
+      padding: 45px 10px;
+    }
+    .p-box-text{
+      margin-top: 5%;
+      font-size: 12px;
+  }
+  .p-box{
+    overflow: hidden;
+  }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    .service-box {
+      padding: 45px 10px !important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .navbar-collapse{
+      text-align: center;
+    }
+    .nav-top-left ul{
+      text-align: center;
+    }
+    .r-content{
+      width: 100%;
+      justify-content: center;
+    }
+    .banner-content h1{
+      font-size: 42px;
+    }
+    .service-box {
+      padding: 45px 10px !important;
+    }
+    .offset-1{
+      margin-left: 0% !important;
+    }
+    footer ul{
+      float: none;
+      text-align: center;
+    }
+    .row {
+      --bs-gutter-x: 0rem !important;
+  }
+  footer {
+    text-align: center;
+  }
+  .fp-1{
+    margin-right: 0px !important;
+  }
+  .p-box{
+    margin: 10px 40px !important;
+  }
+  .mamber{
+    width: 60% !important;
+    margin: auto;
+  }
+  .owl-dot{
+    display: none !important;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 20px) and (max-width: 480px) {
+    
+    /* CSS */
+    .navbar-collapse{
+      text-align: center;
+    }
+    .nav-top-left ul{
+      text-align: center;
+    }
+    .r-content{
+      width: 100%;
+      justify-content: center;
+    }
+    .banner-content h1{
+      font-size: 36px;
+    }
+    .offset-1{
+      margin-left: 0% !important;
+    }
+    footer ul{
+      float: none;
+      text-align: center;
+    }
+    .row {
+      --bs-gutter-x: 0rem !important;
+  }
+  footer{
+    text-align: center;
+  }
+  .fp-1{
+    margin-right: 0px !important;
+  }
+  .mamber{
+    width: 60% !important;
+    margin: auto;
+  }
+  .owl-dot{
+    display: none !important;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+    
+  }
